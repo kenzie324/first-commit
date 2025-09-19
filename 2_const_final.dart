@@ -15,8 +15,8 @@ void main(List<String> args) {
 
   final namaku = 'arza';
   final namamu = 'bobi';
-  int umurku = 20
-  int umurmu = 200
+  int umurku = 20;
+  int umurmu = 200;
 }
 
 
