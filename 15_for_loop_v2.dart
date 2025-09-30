@@ -25,6 +25,7 @@ void main(List<String> args) {
     // && : jika dua duanya sama
     // ! : not kebalikan
 
+    // ini buat increment
     // - : pengurangan
     // + : penjumlahan
     // / : pembagian
