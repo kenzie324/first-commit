@@ -17,7 +17,10 @@ void main(List<String> args) {
   final namamu = 'bobi';
   int umurku = 20;
   int umurmu = 200;
+
+  print('ini $umurmu dan ini $umurku dan $namamu dan $namaku');
 }
+
 
 
 num LuasLingkaran(num radius) {
