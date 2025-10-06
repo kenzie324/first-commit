@@ -18,4 +18,28 @@ void main(List<String> args) {
   // union => menggabungkan 2 data atau lebih menjadi satu himpuan
   // intersection => hanya menggabungkan 'data yg sama' dari kedua himpuan
   // yang dipertimbangkan
+
+  Set<int> segmentA = {1, 3, 5, 7, 9};
+  Set<int> segmentB = {2, 4, 6, 8, 10};
+// union => gabungan dari 2 set / lebih
+  var unionSegmen = segmentA.union(segmentB);
+  print(unionSegmen);
+
+  var intersectionSegmen = segmentA.intersection(segmentB);
+  print(intersectionSegmen);
+
+  Set<int> segmentC = {1 , 5 , 7, 9, 10};
+
+  var CEK = segmentA.intersection(segmentC);
+  print(CEK);
+
+  /**
+   * Buatkan 2 set yang menampung nama-nama minimal 7 nama
+   * dari masing masing set
+   * 1. tampilkan union nya
+   * 2. tampilkan intersectionnya
+   * 3. tentukan panjang element dari keduanya
+   * 4. tentukan panjang element dari unionnya
+   * 5. tentukan panjang element dari intersectionnya
+   */
 }
